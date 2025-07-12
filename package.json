@@ -1,0 +1,23 @@
+{
+  "name": "a-webform",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mirror7777777/The-solar-system#readme",
+  "bugs": {
+    "url": "https://github.com/mirror7777777/The-solar-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirror7777777/The-solar-system.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

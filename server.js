@@ -10,7 +10,7 @@ app.listen(Port , ()=>{
 })
 app.use(express.static('public'))
 
-app.get('/', (req , res)=>{
+app.get('/landing', (req , res)=>{
     res.sendFile(path.join(__dirname, 'html/landing.html'))
 
 });

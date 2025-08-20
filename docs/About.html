@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class=""  href="index.html">Home</a>
+        </li>
+      </ul>
+      <span class="navbar-text" href="facts.html">
+        More facts
+      </span>
+    </div>
+  </div>
+</nav>
+<!----a breadcrumb component from boostrap-->
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">About</li>
+  </ol>
+</nav>
+
+
+    <button type="button" class="btn btn-primary position-relative">
+  Planets Profile
+  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+    <span class="visually-hidden">New alerts</span>
+  </span>
+</button>
+        
+    </header>
+
+    <main>
+    <ol class="list-group list-group-numbered">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Mercury </div>
+      Mercury’s craters are named after famous artists, musicians and authors.
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Facts</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Venus</div>
+      Venus is the hottest planet in the solar system.
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Facts</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Earth</div>
+      Earth’s atmosphere protects us from meteoroids and radiation from the Sun.
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Facts</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold"> Mars</div>
+     There have been more missions to Mars than any other planet.
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Facts</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Jupiter</div>
+     Jupiter has more than double the mass of all the other planets combined.
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Facts</span>
+  </li>
+</ol>
+
+    </main>
+    <script src="script/planet.js"></script>
+  
+
+    <img src="assets\solar system.jpg" class="img-fluid" alt="solar system" class="images">
+</body>
+</html>
